@@ -13,7 +13,10 @@ aws_region="us-east-1"
 bucket_name="sumit-ultimate-bucket"
 lambda_func_name="s3-lambda-function"
 role_name="s3-lambda-sns"
-email_address="sumitgupta@gmail.com"
+
+=======
+email_address="sumitgupta190a@gmail.com"
+
 
 # Create IAM Role for the project
 role_response=$(aws iam create-role --role-name s3-lambda-sns --assume-role-policy-document '{
